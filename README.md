@@ -9,7 +9,7 @@ This project is a web-based bookstore management system aimed at providing a sea
 - Multiple viewing options: table and card view formats
 
 ## Technologies Used
-- Node.js, JavaScript
+- [Node.js](https://nodejs.org/)
 - [React](https://react.dev/)
 - [Express.js](https://expressjs.com/)
 - [MongoDB](https://www.mongodb.com/)
