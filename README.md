@@ -23,7 +23,11 @@ To run this project locally, follow these steps:
 2. Install dependencies using [package manager, e.g., npm]:
    
    ```bash
-   npm install 
+   cd backend
+   npm install
+
+   cd frontend
+   npm install
 3. Run the application:
    
    ```bash
