@@ -33,17 +33,16 @@ This project is licensed under the MIT([license](https://opensource.org/license/
 ## Acknowledgments
 - Special thanks to [Mohammad Mahdi Rahimi](https://github.com/mohammad-mahdi-rahimi) for his invaluable contributions.
 - We acknowledge the use of the following technologies:
-  
+
+  [![MUI](https://img.shields.io/badge/Mui-Link-blue?style=flat-square&logo=mui)](https://tailwindcss.com/)
   [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-Link-blue?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
-  
   [![Express.js](https://img.shields.io/badge/Express.js-Link-blue?style=flat-square&logo=express)](https://expressjs.com/)
-  
   [![MongoDB](https://img.shields.io/badge/MongoDB-Link-blue?style=flat-square&logo=mongodb)](https://www.mongodb.com/)
-  
-   [![React](https://img.shields.io/badge/React-Link-blue?style=flat-square&logo=mongodb)](https://www.mongodb.com/)
+   [![React](https://img.shields.io/badge/React-Link-blue?style=flat-square&logo=react)](https://www.React.dev/)
   
 ## Contact
 If you have any questions or feedback, feel free to reach out:
 
 [![Email](https://img.shields.io/badge/Gmail-draxsis.1995@gmail.com-red?style=flat-square&logo=gmail)](mailto:draxsis.1995@gmail.com)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mostafa%20Koolabadi-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/mostafa-koolabadi)
