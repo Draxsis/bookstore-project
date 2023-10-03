@@ -17,14 +17,17 @@ This project is a web-based bookstore application aimed at providing a seamless 
 ## Installation and Usage
 To run this project locally, follow these steps:
 1. Clone this repository using:
+   
    ```bash
-   git clone [repository URL]```
-4. Install dependencies using [package manager, e.g., npm]:
+   git clone [repository URL]
+2. Install dependencies using [package manager, e.g., npm]:
+   
    ```bash
-   npm install | npm i```
-5. Run the application:
+   npm install 
+3. Run the application:
+   
    ```bash
-   npm start | npm run dev```
+   npm run dev
 
    
 ## Screenshots
