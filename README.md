@@ -43,6 +43,5 @@ This project is licensed under the MIT([license](https://opensource.org/license/
 ## Contact
 If you have any questions or feedback, feel free to reach out:
 
-[![Email](https://img.shields.io/badge/Gmail-draxsis.1995%40gmail.com-red?style=flat-square&logo=gmail)](mailto:draxsis.1995@gmail.com)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mostafa%20Koolabadi-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/mostafa-koolabadi)
+[![Email](https://img.shields.io/badge/Gmail-red?style=flat-square&logo=gmail)](mailto:draxsis.1995@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/mostafa-koolabadi)
