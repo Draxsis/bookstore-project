@@ -9,9 +9,10 @@ This project is a web-based bookstore application aimed at providing a seamless 
 - User authentication and account management
 
 ## Technologies Used
-- HTML, CSS, JavaScript
-- [Framework/Library, e.g., React](link_to_framework)
-- [Database, e.g., MongoDB](link_to_database)
+- Node.js, JavaScript
+- [Framework/Library, e.g., React]([link_to_framework](https://react.dev/))
+- [Framework/Library, e.g., React]([link_to_framework]https://expressjs.com/)
+- [Database, e.g., MongoDB]([link_to_database](https://www.mongodb.com/))
 
 ## Installation and Usage
 To run this project locally, follow these steps:
@@ -26,15 +27,12 @@ To run this project locally, follow these steps:
 ![Screenshot 1](link_to_screenshot_1)
 ![Screenshot 2](link_to_screenshot_2)
 
-## How to Contribute
-We welcome contributions! If you'd like to contribute to this project, please follow [our contribution guidelines](link_to_contribution_guidelines).
-
 ## License
-This project is licensed under the [License Name](link_to_license). See the LICENSE.md file for details.
+This project is licensed under the MIT([link_to_license](https://opensource.org/license/mit/)). See the LICENSE.md file for details.
 
 ## Acknowledgments
-- Special thanks to [name] for their invaluable contributions.
-- We acknowledge the use of [library/framework] in this project.
+- Special thanks to Mohammad Mahdi Rahimi for his invaluable contributions.
+- We acknowledge the use of [Material UI, Tailwind, Express.js, MongoDB and Mongoose] in this project.
 
 ## Contact
-For any inquiries, reach out to [your_email@example.com].
+For any inquiries, reach out to (draxsis.1995@gmail.com).
