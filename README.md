@@ -28,11 +28,11 @@ To run this project locally, follow these steps:
 ![Screenshot 2](link_to_screenshot_2)
 
 ## License
-This project is licensed under the MIT([link_to_license](https://opensource.org/license/mit/)). See the LICENSE.md file for details.
+This project is licensed under the MIT([license](https://opensource.org/license/mit/)). See the LICENSE.md file for details.
 
 ## Acknowledgments
 - Special thanks to Mohammad Mahdi Rahimi for his invaluable contributions.
 - We acknowledge the use of [Material UI, Tailwind, Express.js, MongoDB and Mongoose] in this project.
 
 ## Contact
-For any inquiries, reach out to (draxsis.1995@gmail.com).
+For any inquiries, reach out to draxsis.1995@gmail.com.
