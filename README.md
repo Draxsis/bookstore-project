@@ -18,11 +18,11 @@ This project is a web-based bookstore management system aimed at providing a sea
 To run this project locally, follow these steps:
 1. Clone this repository using:
    
-   ```bash
+   ```terminal
    git clone [repository URL]
 2. Install dependencies using npm:
    
-   ```bash
+   ```terminal
    cd backend
    npm install
 
@@ -30,7 +30,7 @@ To run this project locally, follow these steps:
    npm install
 3. Run the application:
    
-   ```bash
+   ```terminal
    cd backend
    npm run dev
 
