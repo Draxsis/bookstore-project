@@ -31,14 +31,14 @@ To run this project locally, follow these steps:
 This project is licensed under the MIT([license](https://opensource.org/license/mit/)). See the LICENSE.md file for details.
 
 ## Acknowledgments
-- Special thanks to [Mohammad Mahdi Rahimi](https://github.com/mohammad-mahdi-rahimi) for his invaluable contributions.
+- Special thanks to [Mohammad Mahdi Rahimi](https://github.com/Mohammad-M-Rahimi) for his invaluable contributions.
 - We acknowledge the use of the following technologies:
 
-  [![MUI](https://img.shields.io/badge/Mui-Link-blue?style=flat-square&logo=mui)](https://tailwindcss.com/)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-Link-blue?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
-  [![Express.js](https://img.shields.io/badge/Express.js-Link-blue?style=flat-square&logo=express)](https://expressjs.com/)
-  [![MongoDB](https://img.shields.io/badge/MongoDB-Link-blue?style=flat-square&logo=mongodb)](https://www.mongodb.com/)
-   [![React](https://img.shields.io/badge/React-Link-blue?style=flat-square&logo=react)](https://www.React.dev/)
+  [![MUI](https://img.shields.io/badge/Mui-blue?style=flat-square&logo=mui)](https://tailwindcss.com/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-blue?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+  [![Express.js](https://img.shields.io/badge/Express.js-blue?style=flat-square&logo=express)](https://expressjs.com/)
+  [![MongoDB](https://img.shields.io/badge/MongoDB-blue?style=flat-square&logo=mongodb)](https://www.mongodb.com/)
+   [![React](https://img.shields.io/badge/React-blue?style=flat-square&logo=react)](https://www.React.dev/)
   
 ## Contact
 If you have any questions or feedback, feel free to reach out:
