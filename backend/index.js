@@ -3,10 +3,11 @@ import express from "express";
 import mongoose from "mongoose";
 import booksRoute from "./routes/booksRoute.js";
 import cors from "cors";
+import dotenv from "dotenv";
 
 // creating an express app
 const app = express();
-const URL ="mongodb+srv://root:root@cluster0.r7dnu6h.mongodb.net/?retryWrites=true&w=majority";
+const URL ="YOUR MONGODB URL";
 
 app.use(
   cors()
