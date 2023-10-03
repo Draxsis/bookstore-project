@@ -10,9 +10,9 @@ This project is a web-based bookstore application aimed at providing a seamless 
 
 ## Technologies Used
 - Node.js, JavaScript
-- [Framework/Library, e.g., React]([link_to_framework](https://react.dev/))
-- [Framework/Library, e.g., React]([link_to_framework]https://expressjs.com/)
-- [Database, e.g., MongoDB]([link_to_database](https://www.mongodb.com/))
+- [Framework/Library, e.g., React](https://react.dev/)
+- [Framework/Library, e.g., React](https://expressjs.com/)
+- [Database, e.g., MongoDB](https://www.mongodb.com/)
 
 ## Installation and Usage
 To run this project locally, follow these steps:
