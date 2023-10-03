@@ -1,12 +1,12 @@
 # BookStore Project
 
 ## Overview
-This project is a web-based bookstore application aimed at providing a seamless book shopping experience for readers. It allows users to browse, search, and purchase books online.
+This project is a web-based bookstore management system aimed at providing a seamless experience for managing books. It allows users to browse, search, and organize books in both table and card view formats. Users can perform CRUD (Create, Read, Update, Delete) operations on the book database, making it easy to maintain an organized collection.
 
 ## Key Features
 - Search functionality for books
-- Categorization of books by genre
-- User authentication and account management
+- CRUD operations for books (Create, Read, Update, Delete)
+- Multiple viewing options: table and card view formats
 
 ## Technologies Used
 - Node.js, JavaScript
@@ -20,7 +20,7 @@ To run this project locally, follow these steps:
    
    ```bash
    git clone [repository URL]
-2. Install dependencies using [package manager, e.g., npm]:
+2. Install dependencies using npm:
    
    ```bash
    cd backend
