@@ -5,7 +5,7 @@ import ShowBook from "./pages/ShowBook";
 import EditBook from "./pages/EditBook";
 import DeleteBook from "./pages/DeleteBook";
 import { ThemeProvider } from "@mui/material/styles";
-import theme from "./theme/theme.jsx";
+import theme from "./theme/theme";
 
 const App = () => {
   return (
