@@ -31,10 +31,14 @@ To run this project locally, follow these steps:
 This project is licensed under the MIT([license](https://opensource.org/license/mit/)). See the LICENSE.md file for details.
 
 ## Acknowledgments
-- Special thanks to Mohammad Mahdi Rahimi for his invaluable contributions.
-- We acknowledge the use of [Material UI, Tailwind, Express.js, MongoDB and Mongoose] in this project.
+- Special thanks to [Mohammad Mahdi Rahimi](https://github.com/mohammad-mahdi-rahimi) for his invaluable contributions.
+- We acknowledge the use of the following technologies:
+  [![Material UI](https://img.shields.io/badge/Material%20UI-Link-blue?style=flat-square&logo=material-ui)](https://material-ui.com/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-Link-blue?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+  [![Express.js](https://img.shields.io/badge/Express.js-Link-blue?style=flat-square&logo=express)](https://expressjs.com/)
+  [![MongoDB](https://img.shields.io/badge/MongoDB-Link-blue?style=flat-square&logo=mongodb)](https://www.mongodb.com/)
+  [![Mongoose](https://img.shields.io/badge/Mongoose-Link-blue?style=flat-square&logo=mongoose)](https://mongoosejs.com/)
 
-## Contact
 ## Contact
 If you have any questions or feedback, feel free to reach out:
 
