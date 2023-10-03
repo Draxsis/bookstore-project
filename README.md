@@ -28,14 +28,13 @@ To run this project locally, follow these steps:
    
    ```bash
    npm run dev
-
    
 ## Screenshots
 ![Screenshot 1](link_to_screenshot_1)
 ![Screenshot 2](link_to_screenshot_2)
 
 ## License
-This project is licensed under the [MIT licence](https://opensource.org/license/mit/). See the LICENSE.md file for details.
+This project is licensed under the ⚖️ [MIT licence](https://opensource.org/license/mit/). See the LICENSE.md file for details.
 
 ## Acknowledgments
 - Special thanks to [Mohammad Mahdi Rahimi](https://github.com/Mohammad-M-Rahimi) for his invaluable contributions.
