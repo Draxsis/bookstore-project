@@ -27,6 +27,10 @@ To run this project locally, follow these steps:
 3. Run the application:
    
    ```bash
+   cd backend
+   npm run dev
+
+   cd frontend
    npm run dev
    
 ## Screenshots
@@ -34,7 +38,7 @@ To run this project locally, follow these steps:
 ![Screenshot 2](link_to_screenshot_2)
 
 ## License
-This project is licensed under the ⚖️ [MIT licence](https://opensource.org/license/mit/). See the LICENSE.md file for details.
+This project is licensed under the [MIT licence](https://opensource.org/license/mit/). See the LICENSE.md file for details.
 
 ## Acknowledgments
 - Special thanks to [Mohammad Mahdi Rahimi](https://github.com/Mohammad-M-Rahimi) for his invaluable contributions.
