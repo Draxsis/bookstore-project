@@ -16,11 +16,15 @@ This project is a web-based bookstore application aimed at providing a seamless 
 
 ## Installation and Usage
 To run this project locally, follow these steps:
-1. Clone this repository.
-2. Install dependencies using [package manager, e.g., npm]:
-   npm install | npm i
-4. Run the application:
-   npm start | npm run dev
+1. Clone this repository using:
+   ```bash
+   git clone [repository URL]```
+4. Install dependencies using [package manager, e.g., npm]:
+   ```bash
+   npm install | npm i```
+5. Run the application:
+   ```bash
+   npm start | npm run dev```
 
    
 ## Screenshots
@@ -28,7 +32,7 @@ To run this project locally, follow these steps:
 ![Screenshot 2](link_to_screenshot_2)
 
 ## License
-This project is licensed under the ([MIT licence](https://opensource.org/license/mit/)). See the LICENSE.md file for details.
+This project is licensed under the [MIT licence](https://opensource.org/license/mit/). See the LICENSE.md file for details.
 
 ## Acknowledgments
 - Special thanks to [Mohammad Mahdi Rahimi](https://github.com/Mohammad-M-Rahimi) for his invaluable contributions.
