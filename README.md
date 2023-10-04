@@ -38,7 +38,7 @@ To run this project locally, follow these steps:
    npm run dev
    
 ## Screenshots
-![Screenshot 1]([url=https://ibb.co/vHy5TK1][img]https://i.ibb.co/QfSBT19/Screenshot-2023-10-03-231701.png[/img][/url])
+![Screenshot 1](https://ibb.co/vHy5TK1)
 ![Screenshot 2](link_to_screenshot_2)
 
 ## License
