@@ -38,8 +38,8 @@ To run this project locally, follow these steps:
    npm run dev
    
 ## Screenshots
-![Screenshot 1](https://user-images.githubusercontent.com/Draxsis/bookstore-project/screenshot1.png)
-![Screenshot 2](https://user-images.githubusercontent.com/Draxsis/bookstore-project/screenshot2.png)
+![Screenshot 1](https://user-images.githubusercontent.com/Draxsis/bookstore-project/Screenshot1.png)
+![Screenshot 2](https://user-images.githubusercontent.com/Draxsis/bookstore-project/Screenshot2.png)
 
 ## License
 This project is licensed under the [MIT licence](https://opensource.org/license/mit/). See the LICENSE.md file for details.
