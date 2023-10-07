@@ -4,10 +4,8 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { MdOutlineAddBox } from 'react-icons/md';
 import { Link } from 'react-router-dom';
-import { useTheme } from '@mui/material/styles';
 
 const Navbar = ({ setShowType }) => {
-  const theme = useTheme();
 
   const handleShowType = (type) => {
     setShowType(type);
@@ -28,9 +26,9 @@ const Navbar = ({ setShowType }) => {
             onClick={() => handleShowType('table')}
             sx={{
               marginRight: '10px', // Adjusted left margin
-              transition: 'border-width 0.3s, border-color 0.3s',
+              transition: ' ease-out border-width 0.3s, border-color 0.3s',
               '&:hover, &:active': {
-                borderRight: '6px solid lightblue',
+                borderRight: '6px solid gray',
               },
             }}
           >
@@ -42,9 +40,9 @@ const Navbar = ({ setShowType }) => {
             onClick={() => handleShowType('card')}
             sx={{
               marginRight: '150px', // Adjusted left margin
-              transition: 'border-width 0.3s, border-color 0.3s',
+              transition: 'ease-out border-width 0.3s, border-color 0.3s',
               '&:hover, &:active': {
-                borderLeft: '6px solid lightblue',
+                borderLeft: '6px solid gray',
               },
             }}
           >
@@ -52,7 +50,7 @@ const Navbar = ({ setShowType }) => {
           </Button>
         </div>
         <Link to="/books/create" >
-          <MdOutlineAddBox className="text-sky-800 text-4xl" />
+          <MdOutlineAddBox className="text-white-800 text-4xl" />
         </Link>
       </Toolbar>
     </AppBar>

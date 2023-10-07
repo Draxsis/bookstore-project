@@ -5,7 +5,6 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useSnackbar } from "notistack";
 import { TextField, Button, Box, Typography, Container } from "@mui/material";
-import "./CreateBook.css";
 
 const CreateBooks = () => {
   const [title, setTitle] = useState("");
@@ -48,12 +47,16 @@ const CreateBooks = () => {
           flexDirection: "column",
           alignItems: "center",
         }}
-      ></div>
+      >
+        <Typography variant="h3" sx={{ marginTop: "250px" }}>
+          Create your Books
+        </Typography>
+      </div>
       <div
         style={{
           flex: 1,
           padding: "20px",
-          backgroundColor: "#ffffff",
+          backgroundImage: "#ffffff",
           borderRadius: "0 16px 16px 0",
         }}
       >
@@ -62,21 +65,6 @@ const CreateBooks = () => {
           style={{ paddingTop: "20px", textAlign: "center", height: "100%" }}
         >
           <BackButton />
-          <Typography
-            variant="h4"
-            style={{
-              marginBottom: "20px",
-              marginTop: "20px",
-              overflow: "hidden",
-              borderRight: "0.15em solid orange",
-              whiteSpace: "nowrap",
-              letterSpacing: "0.15em",
-              animation:
-                "typing 1.5s steps(10, end), blink-caret 0.75s step-end infinite",
-            }}
-          >
-            Create
-          </Typography>
           {loading && <Spinner />}
           <Box
             sx={{
@@ -84,7 +72,7 @@ const CreateBooks = () => {
               borderRadius: "16px",
               padding: "20px",
               width: "80%",
-              margin: "0 auto",
+              margin: "80px auto",
             }}
           >
             <div style={{ marginBottom: "20px" }}>
