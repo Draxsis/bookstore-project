@@ -30,7 +30,7 @@ const Navbar = ({ setShowType }) => {
               marginRight: '10px', // Adjusted left margin
               transition: 'border-width 0.3s, border-color 0.3s',
               '&:hover, &:active': {
-                borderRight: '6px solid blue',
+                borderRight: '6px solid lightblue',
               },
             }}
           >
@@ -44,7 +44,7 @@ const Navbar = ({ setShowType }) => {
               marginRight: '150px', // Adjusted left margin
               transition: 'border-width 0.3s, border-color 0.3s',
               '&:hover, &:active': {
-                borderLeft: '6px solid blue',
+                borderLeft: '6px solid lightblue',
               },
             }}
           >
