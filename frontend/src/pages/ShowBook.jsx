@@ -88,6 +88,7 @@ const ShowBook = () => {
           {/* Left section content (if any) */}
         </LeftSection>
         <RightSection>
+          <BackButton /> {/* Move BackButton here */}
           <Heading>Book Details</Heading>
           {loading ? (
             <Spinner />
@@ -135,7 +136,6 @@ const ShowBook = () => {
                 <Label>Last Updated At:</Label>
                 <Value>{new Date(book.updatedAt).toLocaleString()}</Value>
               </DetailBox>
-              <BackButton />
             </>
           )}
         </RightSection>
