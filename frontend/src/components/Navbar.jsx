@@ -6,7 +6,6 @@ import { MdOutlineAddBox } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import { useTheme } from '@mui/material/styles';
 
-// eslint-disable-next-line react/prop-types
 const Navbar = ({ setShowType }) => {
   const theme = useTheme();
 
@@ -16,27 +15,43 @@ const Navbar = ({ setShowType }) => {
 
   return (
     <AppBar position="static">
-      <Toolbar>
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          Book Store System
-        </Typography>
-        <Button
-          variant="contained"
-          color="primary"
-          onClick={() => handleShowType('table')}
-          sx={{ bgcolor: theme.palette.primary.main, '&:hover': { bgcolor: theme.palette.secondary.main } }}
-        >
-          Table
-        </Button>
-        <Button
-          variant="contained"
-          color="primary"
-          onClick={() => handleShowType('card')}
-          sx={{ bgcolor: theme.palette.primary.main, '&:hover': { bgcolor: theme.palette.secondary.main }, margin: '20px' }}
-        >
-          Card
-        </Button>
-        <Link to="/books/create">
+      <Toolbar style={{ justifyContent: 'space-between' }}>
+        <Link to="/" onClick={() => handleShowType('table')}>
+          <Typography variant="h6" component="div">
+            Book Store System
+          </Typography>
+        </Link>
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={() => handleShowType('table')}
+            sx={{
+              marginRight: '10px', // Adjusted left margin
+              transition: 'border-width 0.3s, border-color 0.3s',
+              '&:hover, &:active': {
+                borderRight: '6px solid blue',
+              },
+            }}
+          >
+            Table
+          </Button>
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={() => handleShowType('card')}
+            sx={{
+              marginRight: '150px', // Adjusted left margin
+              transition: 'border-width 0.3s, border-color 0.3s',
+              '&:hover, &:active': {
+                borderLeft: '6px solid blue',
+              },
+            }}
+          >
+            Card
+          </Button>
+        </div>
+        <Link to="/books/create" >
           <MdOutlineAddBox className="text-sky-800 text-4xl" />
         </Link>
       </Toolbar>
