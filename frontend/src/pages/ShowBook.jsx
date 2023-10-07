@@ -1,80 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
-import BackButton from '../components/BackButton';
-import Spinner from '../components/Spinner';
-import { styled } from '@mui/system';
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Typography from '@mui/material/Typography';
+import { Box, Paper, Typography } from '@mui/material';
 import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
 import TitleIcon from '@mui/icons-material/Title';
 import PersonIcon from '@mui/icons-material/Person';
 import EventIcon from '@mui/icons-material/Event';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
-
-const Container = styled(Box)({
-  display: 'flex',
-  height: '100vh', // 100% of the viewport height
-});
-
-const LeftSection = styled(Box)({
-  flex: 1,
-  backgroundColor: '#e0e0e0',
-  display: 'flex',
-  flexDirection: 'column', // Adjusted to column layout
-  justifyContent: 'center',
-  alignItems: 'center',
-  color: '#fff',
-});
-
-const RightSection = styled(Box)({
-  flex: 1, // Adjusted to 1 to make it 50% of the screen
-  padding: '2rem',
-  display: 'flex',
-  flexDirection: 'column', // Center content vertically
-  justifyContent: 'center',
-  alignItems: 'center',
-});
-
-const DetailBox = styled(Box)({
-  marginBottom: '1.5rem',
-  display: 'flex',
-  flexDirection: 'column', // Adjusted to column layout
-  alignItems: 'center',
-});
-
-const DetailWrapper = styled(Box)({
-  border: '1px solid #ccc',
-  borderRadius: '8px',
-  padding: '1rem',
-  marginBottom: '1.5rem',
-  width: '60%', // Added width property
-});
-
-const Icon = styled(Box)({
-  marginBottom: '0.5rem', // Adjusted spacing
-  color: '#2C3639',
-});
-
-const Label = styled(Typography)({
-  fontSize: '1rem',
-  fontWeight: 'bold',
-  color: '#2C3639',
-});
-
-const Value = styled(Typography)({
-  fontSize: '1rem',
-  color: '#263238',
-});
-
-const Heading = styled(Typography)({
-  fontSize: '2rem',
-  color: '#263238',
-  fontWeight: 'bold',
-  marginBottom: '1rem', // Increased margin to move it a little more
-  paddingTop:'0.5rem'
-});
+import BackButton from '../components/BackButton';
+import Spinner from '../components/Spinner';
 
 const ShowBook = () => {
   const [book, setBook] = useState({});
@@ -97,62 +31,62 @@ const ShowBook = () => {
 
   return (
     <Box>
-      <Paper component={Container}>
-        <LeftSection>
+      <Paper sx={{ display: 'flex', height: '100vh' }}>
+        <Box sx={{ flex: 1, backgroundColor: '#e0e0e0', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', color: '#fff' }}>
           {/* Left section content (if any) */}
-        </LeftSection>
-        <RightSection>
+        </Box>
+        <Box sx={{ flex: 1, padding: '2rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
           <BackButton />
-          <Heading>Book Details</Heading>
+          <Typography variant="h4" sx={{ color: '#263238', fontWeight: 'bold', marginBottom: '1rem', paddingTop: '0.5rem' }}>Book Details</Typography>
           {loading ? (
             <Spinner />
           ) : (
-            <DetailWrapper>
-              <DetailBox>
-                <Icon>
+            <Box sx={{ border: '1px solid #ccc', borderRadius: '8px', padding: '1rem', marginBottom: '1.5rem', width: '60%' }}>
+              <Box sx={{ marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <Box sx={{ marginBottom: '0.5rem', color: '#2C3639' }}>
                   <AssignmentIndIcon />
-                </Icon>
-                <Label>ID:</Label>
-                <Value>{book._id}</Value>
-              </DetailBox>
-              <DetailBox>
-                <Icon>
+                </Box>
+                <Typography variant="subtitle1" sx={{ fontSize: '1rem', fontWeight: 'bold', color: '#2C3639' }}>ID:</Typography>
+                <Typography variant="subtitle1" sx={{ fontSize: '1rem', color: '#263238' }}>{book._id}</Typography>
+              </Box>
+              <Box sx={{ marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <Box sx={{ marginBottom: '0.5rem', color: '#2C3639' }}>
                   <TitleIcon />
-                </Icon>
-                <Label>Title:</Label>
-                <Value>{book.title}</Value>
-              </DetailBox>
-              <DetailBox>
-                <Icon>
+                </Box>
+                <Typography variant="subtitle1" sx={{ fontSize: '1rem', fontWeight: 'bold', color: '#2C3639' }}>Title:</Typography>
+                <Typography variant="subtitle1" sx={{ fontSize: '1rem', color: '#263238' }}>{book.title}</Typography>
+              </Box>
+              <Box sx={{ marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <Box sx={{ marginBottom: '0.5rem', color: '#2C3639' }}>
                   <PersonIcon />
-                </Icon>
-                <Label>Author:</Label>
-                <Value>{book.author}</Value>
-              </DetailBox>
-              <DetailBox>
-                <Icon>
+                </Box>
+                <Typography variant="subtitle1" sx={{ fontSize: '1rem', fontWeight: 'bold', color: '#2C3639' }}>Author:</Typography>
+                <Typography variant="subtitle1" sx={{ fontSize: '1rem', color: '#263238' }}>{book.author}</Typography>
+              </Box>
+              <Box sx={{ marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <Box sx={{ marginBottom: '0.5rem', color: '#2C3639' }}>
                   <EventIcon />
-                </Icon>
-                <Label>Publish Year:</Label>
-                <Value>{book.publishYear}</Value>
-              </DetailBox>
-              <DetailBox>
-                <Icon>
+                </Box>
+                <Typography variant="subtitle1" sx={{ fontSize: '1rem', fontWeight: 'bold', color: '#2C3639' }}>Publish Year:</Typography>
+                <Typography variant="subtitle1" sx={{ fontSize: '1rem', color: '#263238' }}>{book.publishYear}</Typography>
+              </Box>
+              <Box sx={{ marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <Box sx={{ marginBottom: '0.5rem', color: '#2C3639' }}>
                   <AccessTimeIcon />
-                </Icon>
-                <Label>Created At:</Label>
-                <Value>{new Date(book.createdAt).toLocaleString()}</Value>
-              </DetailBox>
-              <DetailBox>
-                <Icon>
+                </Box>
+                <Typography variant="subtitle1" sx={{ fontSize: '1rem', fontWeight: 'bold', color: '#2C3639' }}>Created At:</Typography>
+                <Typography variant="subtitle1" sx={{ fontSize: '1rem', color: '#263238' }}>{new Date(book.createdAt).toLocaleString()}</Typography>
+              </Box>
+              <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <Box sx={{ marginBottom: '0.5rem', color: '#2C3639' }}>
                   <AccessTimeIcon />
-                </Icon>
-                <Label>Last Updated At:</Label>
-                <Value>{new Date(book.updatedAt).toLocaleString()}</Value>
-              </DetailBox>
-            </DetailWrapper>
+                </Box>
+                <Typography variant="subtitle1" sx={{ fontSize: '1rem', fontWeight: 'bold', color: '#2C3639' }}>Last Updated At:</Typography>
+                <Typography variant="subtitle1" sx={{ fontSize: '1rem', color: '#263238' }}>{new Date(book.updatedAt).toLocaleString()}</Typography>
+              </Box>
+            </Box>
           )}
-        </RightSection>
+        </Box>
       </Paper>
     </Box>
   );
