@@ -31,16 +31,29 @@ const LeftSection = styled(Box)({
 const RightSection = styled(Box)({
   flex: 1, // Adjusted to 1 to make it 50% of the screen
   padding: '2rem',
+  display: 'flex',
+  flexDirection: 'column', // Center content vertically
+  justifyContent: 'center',
+  alignItems: 'center',
 });
 
 const DetailBox = styled(Box)({
   marginBottom: '1.5rem',
   display: 'flex',
+  flexDirection: 'column', // Adjusted to column layout
   alignItems: 'center',
 });
 
+const DetailWrapper = styled(Box)({
+  border: '1px solid #ccc',
+  borderRadius: '8px',
+  padding: '1rem',
+  marginBottom: '1.5rem',
+  width: '60%', // Added width property
+});
+
 const Icon = styled(Box)({
-  marginRight: '0.5rem',
+  marginBottom: '0.5rem', // Adjusted spacing
   color: '#2C3639',
 });
 
@@ -59,7 +72,8 @@ const Heading = styled(Typography)({
   fontSize: '2rem',
   color: '#263238',
   fontWeight: 'bold',
-  marginBottom: '1.5rem',
+  marginBottom: '1rem', // Increased margin to move it a little more
+  paddingTop:'0.5rem'
 });
 
 const ShowBook = () => {
@@ -88,11 +102,12 @@ const ShowBook = () => {
           {/* Left section content (if any) */}
         </LeftSection>
         <RightSection>
+          <BackButton />
           <Heading>Book Details</Heading>
           {loading ? (
             <Spinner />
           ) : (
-            <>
+            <DetailWrapper>
               <DetailBox>
                 <Icon>
                   <AssignmentIndIcon />
@@ -135,8 +150,7 @@ const ShowBook = () => {
                 <Label>Last Updated At:</Label>
                 <Value>{new Date(book.updatedAt).toLocaleString()}</Value>
               </DetailBox>
-              <BackButton />
-            </>
+            </DetailWrapper>
           )}
         </RightSection>
       </Paper>
