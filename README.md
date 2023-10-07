@@ -16,23 +16,27 @@ The BookStore project is a comprehensive web-based bookstore management system d
 
 ## Installation and Usage
 To run this project locally, follow these steps:
-1. Clone this repository using:
-   ```terminal
+1. **Clone the Repository:**
+   ```bash
    git clone [repository URL]
-2. Install dependencies using npm:
+2. **Install dependencies using npm**:
    
-   ```terminal
+   ```bash
+   # Navigate to the backend directory and install dependencies
    cd backend
    npm install
-
+   
+   # Navigate to the frontend directory and install dependencies
    cd frontend
    npm install
-3. Run the application:
+3. **Run the application**:
    
-   ```terminal
+   ```bash
+   # Start the backend server
    cd backend
    npm run dev
 
+   # Start the frontend development server
    cd frontend
    npm run dev
    
