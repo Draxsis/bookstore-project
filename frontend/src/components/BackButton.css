@@ -1,5 +1,3 @@
-/* Adjust the styles to your preference */
-
 .back-button-container {
     display: flex;
     justify-content: center;
@@ -7,7 +5,7 @@
   }
   
   .back-button {
-    background-color: #1e88e5; /* Adjust the color as needed */
+    background-color: #2C3639;
     color: white;
     padding: 10px 20px;
     border-radius: 8px;
@@ -18,11 +16,11 @@
   }
   
   .back-button:hover {
-    background-color: #1565c0; /* Adjust the hover color as needed */
+    background-color: #485a5b;
   }
   
   .back-icon {
-    font-size: 24px; /* Adjust the icon size */
-    margin-right: 8px; /* Add some spacing between icon and text */
+    font-size: 24px;
+    margin-right: 8px;
   }
   
