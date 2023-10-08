@@ -44,9 +44,9 @@ To run this project locally, follow these steps:
    cd frontend
    npm run dev
    
-## Screenshots
-![Screenshot 1](https://user-images.githubusercontent.com/Draxsis/bookstore-project/Screenshot1.png)
-![Screenshot 2](https://user-images.githubusercontent.com/Draxsis/bookstore-project/Screenshot2.png)
+
+## Video
+https://github.com/Draxsis/bookstore-project/assets/93474063/2d87d5b4-c307-4732-b42c-8e76e00fb5d1
 
 ## License
 This project is licensed under the [MIT licence](https://opensource.org/license/mit/). See the LICENSE.md file for details.
