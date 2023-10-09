@@ -30,8 +30,23 @@ const ShowBook = () => {
   }, [id]);
 
   return (
-    <Box>
-      <Paper sx={{ display: "flex", height: "100vh" }}>
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        height: "auto",
+        "@media (max-width: 600px)": {
+          height: "100vh", // Adjust height for smaller screens
+        },
+      }}
+    >
+      <Paper
+        sx={{
+          display: "flex",
+          flexDirection: { xs: "column", md: "row" },
+          height: { xs: "auto", md: "700px" },
+        }}
+      >
         <Box
           sx={{
             flex: 1,
@@ -43,7 +58,9 @@ const ShowBook = () => {
             color: "#fff",
           }}
         >
-          {/* Left section content (if any) */}
+        <Typography variant="h3" sx={{ color: "black" }}>
+          Book Details
+        </Typography>
         </Box>
         <Box
           sx={{
@@ -56,17 +73,6 @@ const ShowBook = () => {
           }}
         >
           <BackButton />
-          <Typography
-            variant="h4"
-            sx={{
-              color: "#263238",
-              fontWeight: "bold",
-              marginBottom: "1rem",
-              paddingTop: "0.5rem",
-            }}
-          >
-            Book Details
-          </Typography>
           {loading ? (
             <Spinner />
           ) : (
@@ -75,8 +81,10 @@ const ShowBook = () => {
                 border: "1px solid #ccc",
                 borderRadius: "8px",
                 padding: "1rem",
+                height: "675px",
                 marginBottom: "1.5rem",
-                width: "60%",
+                marginTop: "20px",
+                width: "55%",
               }}
             >
               <Box
@@ -87,19 +95,34 @@ const ShowBook = () => {
                   alignItems: "center",
                 }}
               >
-                <Box sx={{ marginBottom: "0.5rem", color: "#2C3639" }}>
-                  <AssignmentIndIcon />
-                </Box>
-                <Typography
-                  variant="subtitle1"
+                <Box
                   sx={{
-                    fontSize: "1rem",
-                    fontWeight: "bold",
+                    display: "flex",
+                    alignItems: "center",
+                    marginBottom: "0.5rem",
                     color: "#2C3639",
+                    position: "relative",
                   }}
                 >
-                  ID:
-                </Typography>
+                  <AssignmentIndIcon
+                    sx={{
+                      position: "absolute",
+                      left: "-2px",
+                      zIndex: 1,
+                    }}
+                  />
+                  <Typography
+                    variant="subtitle1"
+                    sx={{
+                      fontSize: "1rem",
+                      fontWeight: "bold",
+                      color: "#2C3639",
+                      paddingLeft: "2rem",
+                    }}
+                  >
+                    ID:
+                  </Typography>
+                </Box>
                 <Typography
                   variant="subtitle1"
                   sx={{ fontSize: "1rem", color: "#263238" }}
@@ -115,19 +138,32 @@ const ShowBook = () => {
                   alignItems: "center",
                 }}
               >
-                <Box sx={{ marginBottom: "0.5rem", color: "#2C3639" }}>
-                  <TitleIcon />
-                </Box>
-                <Typography
-                  variant="subtitle1"
+                <Box
                   sx={{
-                    fontSize: "1rem",
-                    fontWeight: "bold",
+                    marginBottom: "0.5rem",
                     color: "#2C3639",
+                    position: "relative",
                   }}
                 >
-                  Title:
-                </Typography>
+                  <TitleIcon
+                    sx={{
+                      position: "absolute",
+                      left: "-2px",
+                      zIndex: 1,
+                    }}
+                  />
+                  <Typography
+                    variant="subtitle1"
+                    sx={{
+                      fontSize: "1rem",
+                      fontWeight: "bold",
+                      color: "#2C3639",
+                      paddingLeft: "2rem",
+                    }}
+                  >
+                    Title:
+                  </Typography>
+                </Box>
                 <Typography
                   variant="subtitle1"
                   sx={{ fontSize: "1rem", color: "#263238" }}
@@ -143,19 +179,32 @@ const ShowBook = () => {
                   alignItems: "center",
                 }}
               >
-                <Box sx={{ marginBottom: "0.5rem", color: "#2C3639" }}>
-                  <PersonIcon />
-                </Box>
-                <Typography
-                  variant="subtitle1"
+                <Box
                   sx={{
-                    fontSize: "1rem",
-                    fontWeight: "bold",
+                    marginBottom: "0.5rem",
                     color: "#2C3639",
+                    position: "relative",
                   }}
                 >
-                  Author:
-                </Typography>
+                  <PersonIcon
+                    sx={{
+                      position: "absolute",
+                      left: "-2px",
+                      zIndex: 1,
+                    }}
+                  />
+                  <Typography
+                    variant="subtitle1"
+                    sx={{
+                      fontSize: "1rem",
+                      fontWeight: "bold",
+                      color: "#2C3639",
+                      paddingLeft: "2rem",
+                    }}
+                  >
+                    Author:
+                  </Typography>
+                </Box>
                 <Typography
                   variant="subtitle1"
                   sx={{ fontSize: "1rem", color: "#263238" }}
@@ -171,19 +220,32 @@ const ShowBook = () => {
                   alignItems: "center",
                 }}
               >
-                <Box sx={{ marginBottom: "0.5rem", color: "#2C3639" }}>
-                  <EventIcon />
-                </Box>
-                <Typography
-                  variant="subtitle1"
+                <Box
                   sx={{
-                    fontSize: "1rem",
-                    fontWeight: "bold",
+                    marginBottom: "0.5rem",
                     color: "#2C3639",
+                    position: "relative",
                   }}
                 >
-                  Publish Year:
-                </Typography>
+                  <EventIcon
+                    sx={{
+                      position: "absolute",
+                      left: "-2px",
+                      zIndex: 1,
+                    }}
+                  />
+                  <Typography
+                    variant="subtitle1"
+                    sx={{
+                      fontSize: "1rem",
+                      fontWeight: "bold",
+                      color: "#2C3639",
+                      paddingLeft: "2rem",
+                    }}
+                  >
+                    Publish Year:
+                  </Typography>
+                </Box>
                 <Typography
                   variant="subtitle1"
                   sx={{ fontSize: "1rem", color: "#263238" }}
@@ -199,19 +261,32 @@ const ShowBook = () => {
                   alignItems: "center",
                 }}
               >
-                <Box sx={{ marginBottom: "0.5rem", color: "#2C3639" }}>
-                  <AccessTimeIcon />
-                </Box>
-                <Typography
-                  variant="subtitle1"
+                <Box
                   sx={{
-                    fontSize: "1rem",
-                    fontWeight: "bold",
+                    marginBottom: "0.5rem",
                     color: "#2C3639",
+                    position: "relative",
                   }}
                 >
-                  Created At:
-                </Typography>
+                  <AccessTimeIcon
+                    sx={{
+                      position: "absolute",
+                      left: "-2px",
+                      zIndex: 1,
+                    }}
+                  />
+                  <Typography
+                    variant="subtitle1"
+                    sx={{
+                      fontSize: "1rem",
+                      fontWeight: "bold",
+                      color: "#2C3639",
+                      paddingLeft: "2rem",
+                    }}
+                  >
+                    Created At:
+                  </Typography>
+                </Box>
                 <Typography
                   variant="subtitle1"
                   sx={{ fontSize: "1rem", color: "#263238" }}
@@ -226,19 +301,32 @@ const ShowBook = () => {
                   alignItems: "center",
                 }}
               >
-                <Box sx={{ marginBottom: "0.5rem", color: "#2C3639" }}>
-                  <AccessTimeIcon />
-                </Box>
-                <Typography
-                  variant="subtitle1"
+                <Box
                   sx={{
-                    fontSize: "1rem",
-                    fontWeight: "bold",
+                    marginBottom: "0.5rem",
                     color: "#2C3639",
+                    position: "relative",
                   }}
                 >
-                  Last Updated At:
-                </Typography>
+                  <AccessTimeIcon
+                    sx={{
+                      position: "absolute",
+                      left: "-2px",
+                      zIndex: 1,
+                    }}
+                  />
+                  <Typography
+                    variant="subtitle1"
+                    sx={{
+                      fontSize: "1rem",
+                      fontWeight: "bold",
+                      color: "#2C3639",
+                      paddingLeft: "2rem",
+                    }}
+                  >
+                    Last Updated At:
+                  </Typography>
+                </Box>
                 <Typography
                   variant="subtitle1"
                   sx={{ fontSize: "1rem", color: "#263238" }}
