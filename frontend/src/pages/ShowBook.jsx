@@ -30,8 +30,11 @@ const ShowBook = () => {
   }, [id]);
 
   return (
-    <Box>
-      <Paper sx={{ display: "flex", height: "100vh" }}>
+    
+    <Box sx={{ display: "flex", height: "100%", flexDirection: "column" }}>
+
+      <Paper sx={{ display: "flex", height: "821px", flexDirection: "row" }}>
+
         <Box
           sx={{
             flex: 1,
@@ -75,8 +78,9 @@ const ShowBook = () => {
                 border: "1px solid #ccc",
                 borderRadius: "8px",
                 padding: "1rem",
+                height:'675px',
                 marginBottom: "1.5rem",
-                width: "60%",
+                width: "55%",
               }}
             >
               <Box
