@@ -59,21 +59,21 @@ const EditBook = () => {
 
   return (
     <div style={{ display: "flex", height: "100vh" }}>
-      <div
-        style={{
-          flex: 1,
-          backgroundColor: "#e0e0e0",
-          padding: "20px",
-          borderRadius: "0",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-        }}
-      >
-        <Typography variant="h3" sx={{ marginTop: "250px" }}>
+        <Box
+          sx={{
+            flex: 1,
+            backgroundColor: "#e0e0e0",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            color: "black",
+          }}
+        >
+        <Typography variant="h3">
           Edit your Books
         </Typography>
-      </div>
+      </Box>
       <div
         style={{
           flex: 1,
