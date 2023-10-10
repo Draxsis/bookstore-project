@@ -1,12 +1,16 @@
 # BookStore Project
 
 ## Overview
-This project is a web-based bookstore management system aimed at providing a seamless experience for managing books. It allows users to browse, search, and organize books in both table and card view formats. Users can perform CRUD (Create, Read, Update, Delete) operations on the book database, making it easy to maintain an organized collection.
+The BookStore project is a comprehensive web-based bookstore management system designed to streamline book management. It offers a seamless user experience for browsing, searching, and organizing books, available in both table and card view formats. The system facilitates essential CRUD (Create, Read, Update, Delete) operations on the book database, simplifying book collection organization.
+
+## Online Demo
+Explore the live demo of this application at [live Demo]()
+Feel free to interact with the features and experience the application firsthand!
 
 ## Key Features
-- Search functionality for books
-- CRUD operations for books (Create, Read, Update, Delete)
-- Multiple viewing options: table and card view formats
+- **Search Functionality:** Easily search for books within the collection.
+- **CRUD Operations:** Perform essential Create, Read, Update, and Delete actions for books.
+- **Multiple Viewing Options:** Choose between table and card view formats for an organized display.
 
 ## Technologies Used
 - [Node.js](https://nodejs.org/)
@@ -16,30 +20,33 @@ This project is a web-based bookstore management system aimed at providing a sea
 
 ## Installation and Usage
 To run this project locally, follow these steps:
-1. Clone this repository using:
-   
-   ```terminal
+1. **Clone the Repository:**
+   ```bash
    git clone [repository URL]
-2. Install dependencies using npm:
+2. **Install dependencies using npm**:
    
-   ```terminal
+   ```bash
+   # Navigate to the backend directory and install dependencies
    cd backend
    npm install
-
+   
+   # Navigate to the frontend directory and install dependencies
    cd frontend
    npm install
-3. Run the application:
+3. **Run the application**:
    
-   ```terminal
+   ```bash
+   # Start the backend server
    cd backend
    npm run dev
 
+   # Start the frontend development server
    cd frontend
    npm run dev
    
-## Screenshots
-![Screenshot 1](https://user-images.githubusercontent.com/Draxsis/bookstore-project/images/screenshot1.png)
-![Screenshot 2](https://user-images.githubusercontent.com/Draxsis/bookstore-project/images/screenshot2.png)
+
+## Video
+https://github.com/Draxsis/bookstore-project/assets/93474063/2d87d5b4-c307-4732-b42c-8e76e00fb5d1
 
 ## License
 This project is licensed under the [MIT licence](https://opensource.org/license/mit/). See the LICENSE.md file for details.
