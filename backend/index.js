@@ -6,7 +6,7 @@ import cors from "cors";
 
 // creating an express app
 const app = express();
-const URL ="mongodb+srv://root:root@cluster0.r7dnu6h.mongodb.net/?retryWrites=true&w=majority";
+const URL ="mongodb+srv://root:root@cluster0.r7dnu6h.mongodb.net/bookStore-project?retryWrites=true&w=majority";
 
 app.use(
   cors()
