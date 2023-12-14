@@ -50,7 +50,7 @@ To run this project locally, follow these steps:
 https://github.com/Draxsis/bookstore-project/assets/93474063/2d87d5b4-c307-4732-b42c-8e76e00fb5d1
 
 ## License
-This project is licensed under the [MIT licence](https://opensource.org/license/mit/). See the LICENSE.md file for details.
+This project is licensed under the [MIT license](https://opensource.org/license/mit/). See the LICENSE.md file for details.
 
 ## Acknowledgments
 - Special thanks to [Mohammad Mahdi Rahimi](https://github.com/Mohammad-M-Rahimi) for his invaluable contributions.
