@@ -71,7 +71,7 @@ This project is licensed under the [MIT license](https://opensource.org/license/
         <br />
       </td>
             <td align="center" valign="top" width="14.28%">
-        <a href="https://github.com/Mohammad-M-rahimi"><img src="https://github.com/Alietayebi.png" width="100px;" alt="Mohammad Rahimi"><br /><sub><b>Mohammad Rahimi</b></sub></a>
+        <a href="https://github.com/Mohammad-M-rahimi"><img src="https://github.com/Mohammad-M-rahimi.png" width="100px;" alt="Mohammad Rahimi"><br /><sub><b>Mohammad Rahimi</b></sub></a>
         <br />
       </td>
       </td>     
