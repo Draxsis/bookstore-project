@@ -62,7 +62,7 @@ This project is licensed under the [MIT license](https://opensource.org/license/
   [![MongoDB](https://img.shields.io/badge/MongoDB-gray?style=flat-square&logo=mongodb)](https://www.mongodb.com/)
   [![React](https://img.shields.io/badge/React-gray?style=flat-square&logo=react)](https://www.React.dev/)
 
-## Contrubioters
+## contributors
 <table>
   <tbody>
     <tr>
@@ -78,6 +78,7 @@ This project is licensed under the [MIT license](https://opensource.org/license/
     </tr>
   </tbody>
 </table>
+
 ## Contact
 If you have any questions or feedback, feel free to reach out:
 
