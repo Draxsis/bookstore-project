@@ -5,7 +5,7 @@
 The BookStore project is a comprehensive web-based bookstore management system designed to streamline book management. It offers a seamless user experience for browsing, searching, and organizing books, available in both table and card view formats. The system facilitates essential CRUD (Create, Read, Update, Delete) operations on the book database, simplifying book collection organization.
 
 ## Online Demo
-Explore the live demo of this application at [live Demo]()
+Explore the live demo of this application at [live Demo ](#)
 Feel free to interact with the features and experience the application firsthand!
 
 ## Key Features
