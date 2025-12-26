@@ -60,8 +60,6 @@ bookstore-project/
 └── README.md
 ```
 
-### 3. The Deployment Section
-
 ## 🚀 Deployment
 
 Get this project running on your own infrastructure with one click.
@@ -71,7 +69,7 @@ Get this project running on your own infrastructure with one click.
 | **Vercel** | [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Draxsis/bookstore-project) | Best for Frontend hosting |
 | **Railway** | [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Draxsis/bookstore-project) | Excellent for Full Stack (Node + Mongo) |
 
-> **Note:** You will need to configure your `mongoDBURL` environment variable in the d
+> **Note:** You will need to configure your `mongoDBURL` environment variable.
 ---
 
 ## ✨ Features
@@ -89,15 +87,11 @@ Get this project running on your own infrastructure with one click.
 
 ## 🖼️ Screenshots & Preview
 
-> Replace placeholders with real screenshots or GIFs
-
 | View | Preview |
 |-----|--------|
 | Dashboard | ![Dashboard](docs/screenshots/dashboard.png) |
 | Table View | ![Table](docs/screenshots/table-view.png) |
 | Card View | ![Cards](docs/screenshots/card-view.png) |
-
-> 💡 Tip: Short GIFs massively increase engagement.
 
 ---
 
@@ -171,7 +165,6 @@ http://localhost:5173
 Full API documentation is available via Postman.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/) 
-*(Note: Link to your specific collection here if you have one)*
 
 | Method | Endpoint | Description | Payload Example |
 |:------:|----------|-------------|-----------------|
@@ -195,8 +188,6 @@ Full API documentation is available via Postman.
 
 ## 💡 Tips & Best Practices
 
-> Practical tips to get the most out of this repository and reuse it as a template.
-
 | Tip | Why it Matters |
 |----|---------------|
 | 🧱 Keep features modular | Makes the project easier to extend and refactor |
@@ -204,8 +195,6 @@ Full API documentation is available via Postman.
 | 🧪 Add tests early | Prevents regressions as the app grows |
 | 📦 Reuse this structure | Ideal for dashboards and admin panels |
 | 📝 Document as you go | README + API docs save future time |
-
-> ✅ **Template advice:** When cloning this repo for a new project, update branding, screenshots, and the Roadmap first.
 
 ---
 
