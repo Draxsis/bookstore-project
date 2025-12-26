@@ -7,21 +7,19 @@
 **A modern, scalable, full-stack platform for managing and exploring book collections.**
 
 <p align="center">
-  <a href="#-live-demo">🌐 Live Demo</a> •
-  <a href="#-features">✨ Features</a> •
-  <a href="#-screenshots--preview">🖼️ Preview</a> •
-  <a href="#-tech-stack">🧰 Tech Stack</a> •
-  <a href="#-installation">⚙️ Installation</a> •
-  <a href="#-api-overview">🔌 API</a> •
-  <a href="#-roadmap">🗺️ Roadmap</a> •
-  <a href="#-contributing">🤝 Contributing</a>
+  <img src="https://img.shields.io/github/last-commit/Draxsis/bookstore-project?style=flat-square&color=FF5722" alt="Last Commit" />
+  <img src="https://img.shields.io/github/commit-activity/m/Draxsis/bookstore-project?style=flat-square&color=00C853" alt="Commit Activity" />
+  <img src="https://img.shields.io/github/languages/top/Draxsis/bookstore-project?style=flat-square&color=2962FF" alt="Top Language" />
+  <img src="https://img.shields.io/github/repo-size/Draxsis/bookstore-project?style=flat-square&color=FFD600" alt="Repo Size" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" />
-  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg" />
-  <img src="https://img.shields.io/github/stars/Draxsis/bookstore-project?style=social" />
-  <img src="https://img.shields.io/github/forks/Draxsis/bookstore-project?style=social" />
+  <a href="#-live-demo">🌐 Live Demo</a> •
+  <a href="#-features">✨ Features</a> •
+  <a href="#-tech-stack">🧰 Tech Stack</a> •
+  <a href="#-installation">⚙️ Installation</a> •
+  <a href="#-api-overview">🔌 API</a> •
+  <a href="#-contributing">🤝 Contributing</a>
 </p>
 
 </div>
@@ -39,6 +37,43 @@ It focuses on:
 
 This repository is intentionally structured to serve as a **reusable template** for future full-stack projects.
 
+---
+
+## 📂 Project Structure
+
+The project is organized using a clean MVC (Model-View-Controller) architecture for the backend and a component-based structure for the frontend.
+
+```text
+bookstore-project/
+├── backend/
+│   ├── config/             # Database configuration (db.js)
+│   ├── models/             # Mongoose schemas (bookModel.js)
+│   ├── routes/             # Express route definitions
+│   ├── index.js            # Entry point for Backend
+│   └── package.json
+├── frontend/
+│   ├── src/
+│   │   ├── components/     # Reusable UI components (BackButton, Spinner)
+│   │   ├── pages/          # Page views (Home, CreateBook, ShowBook)
+│   │   ├── App.jsx         # Main application component
+│   │   └── main.jsx        # DOM rendering
+│   ├── tailwind.config.js  # Styling configuration
+│   └── vite.config.js      # Build tool configuration
+└── README.md
+```
+
+### 3. The Deployment Section
+
+## 🚀 Deployment
+
+Get this project running on your own infrastructure with one click.
+
+| Service | Deploy Link | Notes |
+|:-------:|:-----------:|:-----:|
+| **Vercel** | [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Draxsis/bookstore-project) | Best for Frontend hosting |
+| **Railway** | [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Draxsis/bookstore-project) | Excellent for Full Stack (Node + Mongo) |
+
+> **Note:** You will need to configure your `mongoDBURL` environment variable in the d
 ---
 
 ## ✨ Features
@@ -98,6 +133,12 @@ cd backend
 npm install
 ```
 
+Create a `.env` file in the root of the backend directory:
+
+| Variable | Description | Required | Default |
+|----------|-------------|:--------:|---------|
+| `PORT` | The port the backend server listens on | ❌ | `5555` |
+| `mongoDBURL` | Your MongoDB Connection String | ✅ | - |
 Create a `.env` file:
 
 ```env
@@ -129,16 +170,18 @@ http://localhost:5173
 
 ## 🔌 API Overview
 
-| Method | Endpoint | Description |
-|-------|----------|------------|
-| GET | `/books` | Fetch all books |
-| GET | `/books/:id` | Fetch book by ID |
-| POST | `/books` | Create new book |
-| PUT | `/books/:id` | Update book |
-| DELETE | `/books/:id` | Delete book |
+Full API documentation is available via Postman.
 
-> 📄 Swagger / OpenAPI integration recommended.
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/) 
+*(Note: Link to your specific collection here if you have one)*
 
+| Method | Endpoint | Description | Payload Example |
+|:------:|----------|-------------|-----------------|
+| `GET` | `/books` | Fetch all books | - |
+| `GET` | `/books/:id` | Fetch book by ID | - |
+| `POST` | `/books` | Create new book | `{ "title": "Dune", "author": "Frank Herbert", "publishYear": 1965 }` |
+| `PUT` | `/books/:id` | Update book | `{ "title": "Dune Messiah" }` |
+| `DELETE` | `/books/:id` | Delete book | - |
 ---
 
 ## 🗺️ Roadmap
