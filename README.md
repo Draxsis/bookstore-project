@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://github.com/Draxsis/bookstore-project/assets/93474063/2d87d5b4-c307-4732-b42c-8e76e00fb5d1" alt="BookStore Logo" width="120" />
-
 # 📚 BookStore Management System
 
 **A modern, scalable, full-stack platform for managing and exploring book collections.**
@@ -128,11 +126,6 @@ cd bookstore-project
 
 ### 🔧 Backend Setup
 
-```bash
-cd backend
-npm install
-```
-
 Create a `.env` file in the root of the backend directory:
 
 | Variable | Description | Required | Default |
@@ -140,6 +133,11 @@ Create a `.env` file in the root of the backend directory:
 | `PORT` | The port the backend server listens on | ❌ | `5555` |
 | `mongoDBURL` | Your MongoDB Connection String | ✅ | - |
 Create a `.env` file:
+
+```bash
+cd backend
+npm install
+```
 
 ```env
 PORT=5555
@@ -211,21 +209,6 @@ Full API documentation is available via Postman.
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome and encouraged.
-
-```bash
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Open a Pull Request
-```
-
-Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) before submitting.
-
----
-
 ## 👥 Contributors
 
 <table align="center">
@@ -254,17 +237,6 @@ Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) before submitting.
 Licensed under the **MIT License**.
 
 See [`LICENSE`](LICENSE.md) for details.
-
----
-
-## ⭐ Template Usage
-
-You are free to reuse this repository structure and README as a **starter template** for:
-- CRUD dashboards
-- Internal admin panels
-- Portfolio projects
-
-Just replace branding, screenshots, and domain logic.
 
 ---
 
