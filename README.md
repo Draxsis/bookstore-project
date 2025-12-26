@@ -241,7 +241,5 @@ If this repository helped you learn, build faster, or ship better:
 
 **Built with clean architecture, scalability, and reusability in mind.**
 
-📌 Designed to serve as a long-term template for modern full-stack projects.
-
 </div>
 
